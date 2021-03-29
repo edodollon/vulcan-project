@@ -58,7 +58,7 @@ folders.libs       = 'libs';
 folders.jQuery     = 'jquery';
 // JavaScript Folders
 folders.jsDev      = `${folders.dev}/${folders.scripts}`;
-folders.jsDist     = `${folders.dist}/${folders.scripts}`;
+folders.jsDistFolder     = `${folders.dist}/${folders.scripts}`;
 folders.libsDev    = `${folders.jsDev}/${folders.libs}`;
 folders.libsDist   = `${folders.jsDistFolder}/${folders.libs}`; 
 // jQuery Folders
