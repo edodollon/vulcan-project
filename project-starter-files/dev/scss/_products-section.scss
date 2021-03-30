@@ -2,7 +2,25 @@ h1, h2, h3 {
     font-family: $heading-font;
 }
 
-.product {
+.handlers {
     display: flex;
     flex-direction: column;
+    font-family: $body-font;
+    text-align: center;
+    padding: 1rem;
+
+   .product {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 1rem;
+
+       img {
+           width: 50%;
+       }
+   } 
+}
+
+.product:not(:last-child) {
+    border-bottom: solid 1px #9692927c;
 }
