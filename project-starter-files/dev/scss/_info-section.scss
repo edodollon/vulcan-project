@@ -1,6 +1,10 @@
 .info {
   position: relative;
 
+  p {
+    font-family: $body-font;
+  }
+
   h3 {
     display: inline;
       position: absolute;
@@ -22,11 +26,34 @@
     height: 100%;
     object-fit: cover;
   }
+
+  a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 7px 20px;
+  }
 }
 
-a {
-  color: white;
-  text-decoration: none;
-  border: 1px solid white;
-  padding: 7px 20px;
+//Tablet Query
+@media screen and (min-width: 758px) {
+  .info {
+    h2 {
+      font-size: 4.5vw;
+    }
+  
+    .about-content {
+      top: 40%;
+    }
+  }
 }
+
+//Desktop Query
+// @media screen and (min-width: 1024px) {
+//   .info {
+    
+//     img {
+//       width: 100%;
+//     }
+//   }
+// }

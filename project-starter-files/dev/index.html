@@ -15,7 +15,7 @@
     <!-- end Google Fonts -->
 
     <!-- *** IMPORTANT *** DO NOT DELETE OR EDIT THE NEXT LINE OF CODE - IT IS IMPORTANT FOR THE GULP BUILD PROCESS. SEE YOUR INSTRUCTOR FIRST IF YOU WANT TO EDIT OR DELETE THIS LINE -->
-    <link rel="stylesheet" href="styles/styles.css?cb=1617142159436" />
+    <link rel="stylesheet" href="styles/styles.css?cb=1617217428211" />
   </head>
   <body>
     <main>
@@ -27,137 +27,197 @@
             screening, grit handling or sludge thickening products are either.
             We'll help determine exactly what you need.
           </p>
-          <section class="product">
-            <img
-              src="images/machine-01-300x274.png"
-              alt="screening machine"
-              class="screening"
-              srcset="
-                images/machine-01-300x274.png 300w,
-                images/machine-01-768x702.png 768w,
-                images/machine-01-912x834.png 912w
-              "
-              sizes="(max-width: 600px)
+          <div class="handlers-row">
+            <section class="product">
+              <img
+                src="images/machine-01-300x274.png"
+                alt="screening machine"
+                class="screening"
+                srcset="
+                  images/machine-01-300x274.png 300w,
+                  images/machine-01-768x702.png 768w,
+                  images/machine-01-912x834.png 912w
+                "
+                sizes="(max-width: 600px)
                  				"
-            />
-            <h3>SCREENING</h3>
-          </section>
-          <section class="product">
-            <img
-              src="images/machine-02-300x274.png"
-              alt="screening handling machine"
-              class="screening"
-              srcset="
-                images/machine-02-300x274.png 300w,
-                images/machine-02-768x702.png 768w,
-                images/machine-02-912x834.png 912w
-              "
-              sizes="(max-width: 600px)
+              />
+              <h3>SCREENING</h3>
+              <p class="selector-link"><a href="#">View Selection</a></p>
+            </section>
+            <section class="product">
+              <img
+                src="images/machine-02-300x274.png"
+                alt="screening handling machine"
+                class="screening"
+                srcset="
+                  images/machine-02-300x274.png 300w,
+                  images/machine-02-768x702.png 768w,
+                  images/machine-02-912x834.png 912w
+                "
+                sizes="(max-width: 600px)
                  				"
-            />
-            <h3>SCREENINGS HANDLING</h3>
-          </section>
-          <section class="product">
-            <img
-              src="images/machine-03-300x274.png"
-              alt="grit handling machine"
-              class="screening"
-              srcset="
-                images/machine-03-300x274.png 300w,
-                images/machine-03-768x702.png 768w,
-                images/machine-03-912x834.png 912w
-              "
-              sizes="(max-width: 600px)
+              />
+              <h3>SCREENINGS HANDLING</h3>
+              <p class="selector-link"><a href="#">View Selection</a></p>
+            </section>
+            <section class="product">
+              <img
+                src="images/machine-03-300x274.png"
+                alt="grit handling machine"
+                class="screening"
+                srcset="
+                  images/machine-03-300x274.png 300w,
+                  images/machine-03-768x702.png 768w,
+                  images/machine-03-912x834.png 912w
+                "
+                sizes="(max-width: 600px)
                  				"
-            />
+              />
 
-            <h3>GRIT HANDLING</h3>
-          </section>
-          <section class="product">
-            <img
-              src="images/machine-04-300x274.png"
-              alt="sludge thickening machine"
-              class="screening"
-              srcset="
-                images/machine-04-300x274.png 300w,
-                images/machine-04-768x702.png 768w,
-                images/machine-04-912x834.png 912w
-              "
-              sizes="(max-width: 600px)
+              <h3>GRIT HANDLING</h3>
+              <p class="selector-link"><a href="#">View Selection</a></p>
+            </section>
+            <section class="product">
+              <img
+                src="images/machine-04-300x274.png"
+                alt="sludge thickening machine"
+                class="screening"
+                srcset="
+                  images/machine-04-300x274.png 300w,
+                  images/machine-04-768x702.png 768w,
+                  images/machine-04-912x834.png 912w
+                "
+                sizes="(max-width: 600px)
                  				"
-            />
-            <h3>SLUDGE THICKENING</h3>
-          </section>
+              />
+              <h3>SLUDGE THICKENING</h3>
+              <p class="selector-link"><a href="#">View Selection</a></p>
+            </section>
+          </div>
         </div>
 
         <section class="product-wrapper">
           <h2>Product Advisor</h2>
           <p>Find your project's perfect fit.</p>
-        
+
           <div class="form-row">
-            <label class="product-table" for= "product-type">Product Type</label>
-            <select name="product" id="product" style="font-size:0.6rem; width: 300px; color:#666666;background-color:#edeeee; border:none">
-          
+            <label class="product-table" for="product-type">Product Type</label>
+            <select
+              name="product"
+              id="product"
+              style="
+                font-size: 0.6rem;
+                width: 300px;
+                color: #666666;
+                background-color: #edeeee;
+                border: none;
+              "
+            >
               <option value="product_1">Select</option>
               <option value="product_2">Product_2</option>
               <option value="product_3">Product_3</option>
               <option value="product_4">Product_4</option>
-        
-        
-            <br/>
-        
+
+              <br />
             </select>
-            <label class= "product-table" for= "product-type">Screen Location</label>
-            <select name="product" id="product" style="font-size:0.6rem; width:300px;color:#666666; background-color:#bbbbbb; border:none">
-            <div class="product-font">
-              <option value="product_1">Select</option>
-              <option value="product_2">Product_2</option>
-              <option value="product_3">Product_3</option>
-              <option value="product_4">Product_4</option>
-            </div>
-            <br/>
-        
+            <label class="product-table" for="product-type"
+              >Screen Location</label
+            >
+            <select
+              name="product"
+              id="product"
+              style="
+                font-size: 0.6rem;
+                width: 300px;
+                color: #666666;
+                background-color: #bbbbbb;
+                border: none;
+              "
+            >
+              <div class="product-font">
+                <option value="product_1">Select</option>
+                <option value="product_2">Product_2</option>
+                <option value="product_3">Product_3</option>
+                <option value="product_4">Product_4</option>
+              </div>
+              <br />
             </select>
-            <label class="product-table" for= "product-type">Flow Type</label>
-            <select name="product" id="product" style= "font-size:0.6rem; width:300px; color: #666666; background-color: #bbbbbb; border:none" >
-            <div class="product-font">
-              <option value="product_1">Select</option>
-              <option value="product_2">Product_2</option>
-              <option value="product_3">Product_3</option>
-              <option value="product_4">Product_4</option>
-            </div>
-        
+            <label class="product-table" for="product-type">Flow Type</label>
+            <select
+              name="product"
+              id="product"
+              style="
+                font-size: 0.6rem;
+                width: 300px;
+                color: #666666;
+                background-color: #bbbbbb;
+                border: none;
+              "
+            >
+              <div class="product-font">
+                <option value="product_1">Select</option>
+                <option value="product_2">Product_2</option>
+                <option value="product_3">Product_3</option>
+                <option value="product_4">Product_4</option>
+              </div>
             </select>
-            <label class="product-table" for= "product-type">Channel Depth</label>
-            <select name="product" id="product" style= "font-size:0.6rem; width:300px; color: #666666; background-color: #bbbbbb; border:none" >
-            <div class="product-font">
-              <option value="product_1">Select</option>
-              <option value="product_2">Product_2</option>
-              <option value="product_3">Product_3</option>
-              <option value="product_4">Product_4</option>
-            </div>
-            
-            <br/>
-        
+            <label class="product-table" for="product-type"
+              >Channel Depth</label
+            >
+            <select
+              name="product"
+              id="product"
+              style="
+                font-size: 0.6rem;
+                width: 300px;
+                color: #666666;
+                background-color: #bbbbbb;
+                border: none;
+              "
+            >
+              <div class="product-font">
+                <option value="product_1">Select</option>
+                <option value="product_2">Product_2</option>
+                <option value="product_3">Product_3</option>
+                <option value="product_4">Product_4</option>
+              </div>
+
+              <br />
             </select>
-            <label class="product-table" for= "product-type">Channel Width</label>
-            <select name="product" id="product" style="font-size:0.6rem; width:300px; color: #666666; background-color: #bbbbbb; border:none">
-            <div class="product-font">
-              <option value="product_1">Select</option>
-              <option value="product_2">Product_2</option>
-              <option value="product_3">Product_3</option>
-              <option value="product_4">Product_4</option>
-            </div>
+            <label class="product-table" for="product-type"
+              >Channel Width</label
+            >
+            <select
+              name="product"
+              id="product"
+              style="
+                font-size: 0.6rem;
+                width: 300px;
+                color: #666666;
+                background-color: #bbbbbb;
+                border: none;
+              "
+            >
+              <div class="product-font">
+                <option value="product_1">Select</option>
+                <option value="product_2">Product_2</option>
+                <option value="product_3">Product_3</option>
+                <option value="product_4">Product_4</option>
+              </div>
             </select>
           </div>
 
           <div class="form-group submit-group">
             <div class="submit">
-              <input class="submit" type="submit" value="Find My Product" style= "background-color:#5ba8db;">
+              <input
+                class="submit"
+                type="submit"
+                value="Find My Product"
+                style="background-color: #5ba8db"
+              />
             </div>
           </div>
-          
-        </section>	
+        </section>
 
         <div class="info">
           <section class="about">
@@ -179,35 +239,50 @@
           </section>
         </div>
 
-
-
         <div class="promo-video">
-			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/183929811?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+          <div style="padding: 56.25% 0 0 0; position: relative">
+            <iframe
+              src="https://player.vimeo.com/video/183929811?title=0&byline=0&portrait=0"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              "
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
-      
-   
-  
-    <section class= "newsletter">
-      <h2>Stay in the know. Sign up for our newsletter.</h2>
-    <div class= "submission">
-      <div class="form-row">
-        <input class= "email" type="text" id="newsletter" name="newsletter" required placeholder="Enter your email">
+
+        <section class="newsletter">
+          <h2>Stay in the know. Sign up for our newsletter.</h2>
+          <div class="submission">
+            <div class="form-row">
+              <input
+                class="email"
+                type="text"
+                id="newsletter"
+                name="newsletter"
+                required
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="form-group submit-group">
+              <input class="submit-input" type="submit" value="Submit" />
+            </div>
+          </div>
+        </section>
       </div>
-      <div class="form-group submit-group">
-        <input class="submit-input" type="submit" value="Submit">
-        
-      </div>
-    
-        
-    </div>
-  </section>
-  </div>
-  </main>
+    </main>
 
     <!-- *** IMPORTANT *** If you do not require the jQuery Library then feel free to delete the next line -->
     <script src="scripts/libs/jquery/jquery-3.4.1.min.js"></script>
     <!-- *** IMPORTANT *** DO NOT DELETE OR EDIT THE NEXT LINE OF CODE - IT IS IMPORTANT FOR THE GULP BUILD PROCESS. SEE YOUR INSTRUCTOR FIRST IF YOU WANT TO EDIT OR DELETE THIS LINE -->
-    <script src="scripts/script.min.js?cb=1617142159436"></script>
+    <script src="scripts/script.min.js?cb=1617217428211"></script>
     <!-- *** IMPORTANT *** DO NOT ADD ADDITIONAL SCRIPT LINKS HERE...If you want to add additional scripts simply save the script files to the "dev/scripts" directory (for your custom scripts) and the 'dev/scripts/libs' directory for any jQuery plugins or other JavaScript libraries and Gulp will concatenate and minify them into the "script.min.js" file above. See the project instructions for details -->
   </body>
 </html>
