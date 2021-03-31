@@ -6,3 +6,10 @@
         border: 1rem solid #114861;
     }
 }
+
+//Desktop Query
+@media screen and (min-width: 1024px) {
+    .promo-video {
+        padding: 3rem 14rem;
+    }
+}
