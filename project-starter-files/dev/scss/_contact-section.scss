@@ -1,8 +1,7 @@
 .contact{
     background-color: #244a64;
     padding-top: 30px;
-   
-  
+
 }
 
 
@@ -15,13 +14,11 @@
     padding-left:8px;
 }
 
-.contact h3{
-   background-color: #244a64;
-   color: #ffffff;
-   padding-top: 6px;
-   padding-bottom: 6px;
-   font-family: $body-font;
-   align-content: center;
+.contact a{
+    color: white;
+    text-decoration: none;
+   border: 1px solid white;
+   padding: 7px 20px;
    text-transform: uppercase;
    text-align:center;
    
