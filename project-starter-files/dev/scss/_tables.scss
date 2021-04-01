@@ -1,64 +1,86 @@
 
-.product-wrapper{
+
+.form-item-container {
     font-family: $body-font;
-    background-color: #244a64;
-    padding: 10px;
-    color:#ffffff;
+    color: #ffffff;
+    padding-left:10px;
+    
+    @media (min-width: 800px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 10px;
+    
+    }
+
+    @media (min-width: 1200px){
+        //padding-left: 200px;
+        //width: 90%;
+    }
 }
-
-
-.product-wrapper h2{
-    text-align:center;
+.word-wrapper {
+    background-color: #244a64;
+}
+.word-wrapper h2 {
+    padding-top: 20px;
+    text-align: center;
     text-transform: uppercase;
     font-size: 1.2rem;
+    color:#ffffff;
 }
-
-.product-wrapper p{
-    text-align:center;
+.word-wrapper p {
+    text-align: center;
     font-size: 0.7rem;
     padding-bottom: 25px;
+    color: #ffffff;
     border-bottom: 1px #ffffff solid;
-    
 }
-
-.product-table{
-   @include product-table;
-
+.product-table {
+    @include product-table;
 }
 
 #product {
-    padding-top: 9px;
-    padding-bottom:9px;
-    padding-right: 80px;
-    font-size:0.6rem;
-    width:300px;
-    color:#666666;
-    background-color:#bbbbbb;
-    border:none;
-}
+    font-size: 0.6rem;
+    color: #666;
+    background-color: #bbb;
+    border: none;
+    width: 250px;
+    padding: 2%;
 
-.submit{
-    margin-top: 30px;
-    padding-top: 10px;
-    padding-bottom:10px;
-    color: #ffffff;
-    width: 300px;
-    //border:none;
+    @media (min-width: 800px) {
+        width: 200px;
     
-
-}
-
-@media screen and (min-width: $breakpoint-tablet){
-        #product{
-            display:flex;
-            flex:row;
-
-        .submit{
-            width:800px;
-        }
     }
 }
 
 
+.submit{
+    
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-left: 5px;
+    color: #ffffff;
+    width: 300px;
+    border:none;
 
+    @media (min-width: 816px){
+        width: 700px;
+        margin-left: 25px;
+       
+    }
+
+    @media (min-width: 1200px){
+        width: 950px;
+        margin-left: 80px;
+       
+    }
+
+
+    @media (min-width: 1800px){
+        width: 950px;
+        margin-left: 220px;
+        
+    }
+
+}
 

@@ -3,17 +3,43 @@
     background-color: #bedcef;
     padding: 10px;
     color:#ffffff;
-    
+
+    @media (min-width: 700px){
+        display:flex;
+        flex:wrap;
+        justify-content:center;
+    }
+   
 }
 
 .newsletter h2{
     color:#244a64;
     font-size: 0.97rem;
     font-weight:lighter;
+
+    @media (min-width: 1000px){
+        font-size:1.5rem;
+    }
 }
 
 .email{
 @include email;
+height:30px;
+
+@media (min-width: 640px){
+    margin-left: 20px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+@media (min-width: 1000px){
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
    
 }
 
@@ -24,4 +50,11 @@
 
 .submit-input{
     @include submit-input;
+
+    @media (min-width: 640px){
+        margin-top: 10px;
+    }
+    @media (min-width: 1000px){
+        margin-top: 20px;
+    }
 }
