@@ -36,13 +36,15 @@ h3 {
 }
 
 //Tablet query
-@media screen and (min-width: 768px) {
+@media screen and (min-width: $breakpoint-tablet) {
   .handlers h2,
   .handlers h3 {
     font-size: 2rem;
+    color: #429bd6;
   }
 
   .handlers h2 {
+    color: #244a64;
     margin: 0;
   }
 
@@ -81,5 +83,3 @@ h3 {
     }
   }
 }
-
-//Desktop query

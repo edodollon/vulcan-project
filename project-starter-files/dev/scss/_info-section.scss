@@ -36,7 +36,7 @@
 }
 
 //Tablet Query
-@media screen and (min-width: 758px) {
+@media screen and (min-width: $breakpoint-tablet) {
   .info {
     h2 {
       font-size: 4.5vw;
@@ -47,13 +47,3 @@
     }
   }
 }
-
-//Desktop Query
-// @media screen and (min-width: 1024px) {
-//   .info {
-    
-//     img {
-//       width: 100%;
-//     }
-//   }
-// }
