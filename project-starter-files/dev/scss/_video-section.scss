@@ -8,7 +8,7 @@
 }
 
 //Desktop Query
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: $breakpoint-desktop) {
     .promo-video {
         padding: 3rem 14rem;
     }
