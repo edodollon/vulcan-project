@@ -4,18 +4,15 @@
     font-family: $body-font;
     color: #ffffff;
     padding-left:10px;
+    align-items:center;
+
     
-    @media (min-width: 800px) {
+    @media (min-width: 420px) {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
+        flex-direction:row;
         margin-left: 10px;
-    
-    }
-
-    @media (min-width: 1200px){
-        //padding-left: 200px;
-        //width: 90%;
     }
 }
 .word-wrapper {
@@ -62,6 +59,7 @@
     color: #ffffff;
     width: 300px;
     border:none;
+    margin-top :20px;
 
     @media (min-width: 816px){
         width: 700px;
