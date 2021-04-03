@@ -1,13 +1,14 @@
-.wave2 {
-    overflow: hidden;
+// .above-footer {
+//     position: absolute;
+// }
+
+.wave {
     width: 100%;
     height: auto;
-    position: absolute;
 
     img {
         display: block;
-        max-width: 100%;
-        position: relative;
+        max-width: 100%;   
     }
 }
 
@@ -15,4 +16,5 @@
 @media screen and (min-width: $breakpoint-tablet) {
     .above-footer {
         display: flex;
+    }
 }
