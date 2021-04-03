@@ -1,0 +1,18 @@
+.wave2 {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    position: absolute;
+
+    img {
+        display: block;
+        max-width: 100%;
+        position: relative;
+    }
+}
+
+//Tablet Query
+@media screen and (min-width: $breakpoint-tablet) {
+    .above-footer {
+        display: flex;
+}
