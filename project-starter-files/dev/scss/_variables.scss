@@ -3,20 +3,15 @@ $heading-font: 'Roboto Condensed', sans-serif;
 $body-font: 'Roboto', sans-serif;
 
 // Breakpoints
-
+$breakpoint-mobile: 640px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
 
 $colors: (
-    main-product: #244a64,
+    main-product: #154a66,
     select-product-1: #edeeee,
     font-clr: #ffffff,
     select-product: #bbbbbb,
     product-font: #666666,
-    product-btn: #429bd6,
-    newsletter-bckground: #bedcef);
-
-
-
-    $breakpoint-mobile: 640px;
-    $breakpoint-tablet: 768px;
-    $breakpoint-desktop: 1024px;
-   
+    product-btn: #009ddc,
+    newsletter-bckground: #bedcef); 
