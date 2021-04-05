@@ -1,8 +1,5 @@
 .newsletter{
-    font-family: $body-font;
-    background-color: #bedcef;
-    padding: 10px;
-    color:#ffffff;
+   @include main-newsletter;
 
     @media (min-width: 700px){
         display:flex;
@@ -13,10 +10,7 @@
 }
 
 .newsletter h2{
-    color:#244a64;
-    font-size: 0.97rem;
-    text-align:center;
-    font-weight:lighter;
+   @include newsletter-h2;
 
     @media (min-width: 1000px){
         font-size:1.5rem;
@@ -27,18 +21,18 @@
 @include email;
 height:30px;
 
-@media (min-width: 400px){
+@media screen and (min-width: $breakpoint-mobile-mini) {
     width: 300px;
 }
 
-@media (min-width: 500px){
+@media screen and (min-width: $breakpoint-tablet-mini) {
     margin-left: 20px;
     width: 300px;
     margin-left: 30px;
     margin-top: 10px;
 }
 
-@media (min-width: 1000px){
+@media screen and (min-width: $breakpoint-desktop-mini) {
     width: 350px;
     margin-left: 30px;
     margin-top: 20px;
