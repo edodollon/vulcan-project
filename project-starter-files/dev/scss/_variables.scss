@@ -7,11 +7,15 @@ $breakpoint-mobile: 640px;
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1024px;
 
+$breakpoint-mobile-mini: 400px;
+$breakpoint-tablet-mini: 500px;
+$breakpoint-desktop-mini:1000px;
+
 $colors: (
     main-product: #154a66,
     select-product-1: #edeeee,
     font-clr: #ffffff,
     select-product: #bbbbbb,
     product-font: #666666,
-    product-btn: #009ddc,
-    newsletter-bckground: #bedcef); 
+    product-btn: #429bd6,
+    newsletter-bckground: #bedcef);

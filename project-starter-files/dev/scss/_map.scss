@@ -7,28 +7,15 @@
   }
 
   h2 {
-    color: #666666;
-    position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
-    padding: 2rem;
-    font-size: 2.4rem;
-    width: 100%;
-    text-align: center;
+    @include map-h2;
   }
 
   h3 {
-    position: absolute;
-    top: 55%;
-    width: 100%;
-    text-align: center;
+   @include map-h3;
   }
 
   a {
-    color: #666666;
-    text-decoration: none;
-    border: 1px solid #666666;
-    padding: 7px 20px;
+   @include map-a;
   }
 }
 

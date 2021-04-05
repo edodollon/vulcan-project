@@ -6,20 +6,11 @@
   }
 
   h3 {
-    display: inline;
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      top: 74%;
+  @include info-h3;
     }
 
   .about-content {
-    color: white;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 2rem;
+   @include info-contact;
   }
 
   img {
@@ -28,10 +19,7 @@
   }
 
   a {
-    color: white;
-    text-decoration: none;
-    border: 1px solid white;
-    padding: 7px 20px;
+  @include info-a;
   }
 }
 
