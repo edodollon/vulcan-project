@@ -69,7 +69,7 @@ folders.stylesDev  = `${folders.dev}/${folders.styles}`;
 folders.stylesDist = `${folders.dist}/${folders.styles}`;
 // Images Folders
 folders.imagesDev  = `${folders.dev}/${folders.images}`;
-folders.imagesDist = `${folders.dist}/${folders.images}`;
+folders.imagesDistFolder = `${folders.dist}/${folders.images}`;
 // Fonts Folders
 folders.fontsDev   = `${folders.dev}/${folders.fonts}`;
 folders.fontsDist  = `${folders.dist}/${folders.fonts}`;
